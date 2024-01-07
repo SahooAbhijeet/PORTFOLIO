@@ -24,8 +24,7 @@ const MySkills = () => {
           </p>
           <LineGradient width="w-1/3" />
           <p className="mt-10 mb-7">
-            Aliquam, amet dui feugiat facilisi dui. Aliquam aliquet integer ut
-            fames odio in at.
+            
           </p>
         </motion.div>
 
@@ -63,12 +62,12 @@ const MySkills = () => {
         >
           <div className="relative h-32 ">
             <div className="z-10 ">
-              {/* <p className="font-playfair font-semibold text-5xl">01</p> */}
+              
               <p className="font-playfair font-extrabold text-3xl mt-3 flex justify-center h-screen">
                 TECH  STACK
               </p>
             </div>
-            <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
+            <div className="w-1/2 md:w-3/4 h-32  absolute right-0 top-0 z-[-1]" />
           </div>
           <div className="flex flex-wrap justify-between gap-16 ">
 
@@ -108,7 +107,7 @@ const MySkills = () => {
           />
 
           <img 
-          className="text-white size-16 "
+          className=" bg-white size-16 rounded-full"
           src="https://cdn.icon-icons.com/icons2/936/PNG/512/github-logo_icon-icons.com_73546.png"
           />
 
@@ -132,15 +131,13 @@ const MySkills = () => {
           src="https://cdn.icon-icons.com/icons2/2415/PNG/512/bootstrap_plain_wordmark_logo_icon_146620.png"
           />
 
-
-
           <img 
           className="bg-deep-blue size-16"
           src="https://cdn.icon-icons.com/icons2/3053/PNG/512/postman_alt_macos_bigsur_icon_189814.png"
           />
 
           <img 
-          className="bg-deep-blue size-16"
+          className="bg-deep-blue size-16 "
           src="https://cdn.icon-icons.com/icons2/2699/PNG/512/rabbitmq_logo_icon_170812.png"
           />
 
@@ -150,7 +147,7 @@ const MySkills = () => {
           />
 
           <img 
-          className="bg-deep-blue size-16"
+          className="bg-white rounded-full size-16"
           src="https://cdn.icon-icons.com/icons2/2389/PNG/512/socket_io_logo_icon_144874.png"
           />
 

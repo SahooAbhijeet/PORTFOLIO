@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaLinkedin, FaSquareXTwitter  } from "react-icons/fa6";
-import { FaInstagram, FaFacebook } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
+import { IoLogoGithub } from "react-icons/io5";
 
 
 const SocialMedia = () => {
@@ -26,11 +27,11 @@ const SocialMedia = () => {
 
         <a 
         className='hover:opacity-50 transition duration-500'
-        href="https://www.instagram.com/_abhijeetsahoo/"
+        href="https://github.com/SahooAbhijeet"
         target='_blank'
         rel='noreferrer'
         >
-            <FaInstagram className='text-3xl'/>
+            <IoLogoGithub className='text-3xl'/>
         </a>
 
         <a 

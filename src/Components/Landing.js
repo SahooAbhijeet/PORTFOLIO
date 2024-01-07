@@ -48,8 +48,8 @@ const Landing = ({setSelectedPage}) => {
                         Sahoo
                     </span>
                     </p>
-                    <p className='mt-10 mb-7 text-sm text-center md:text-start'>
-                        I m a MERN stack developer
+                    <p className='mt-10 mb-7 text-xl text-center md:text-start '>
+                       MERN STACK WEB DEVELOPER
                     </p>
                 </motion.div>
 
@@ -70,15 +70,6 @@ const Landing = ({setSelectedPage}) => {
                     href="#contact"
                     >
                         Contact Me
-                    </AnchorLink>
-                    <AnchorLink
-                    className="rounded-r-sm bg-gradient-rainblue py-0.5 pr-0.5"
-                    onClick={() => setSelectedPage("contact")}
-                    href="#let's talk"
-                    >
-                        <div className="bg-deep-blue hover:text-red transition duration-500 w-full h-full flex items-center justify-center font-playfair px-10">
-                        Let's Talk
-                        </div>
                     </AnchorLink>
                 </motion.div>
 
